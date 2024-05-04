@@ -362,5 +362,11 @@ VanillaTilt.init(document.querySelectorAll('.tilt'),{
 });
 
 </script>
+         <script>
+        window.addEventListener('contextmenu', function (e) {
+            // Block right-click menu
+            e.preventDefault();
+        }, false);
+    </script>
     </body>
 </html>
